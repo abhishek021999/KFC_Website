@@ -1,0 +1,501 @@
+{
+  "Data":[
+      {
+          "Image":"https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K815.jpg?ver=45.04",
+          "Name":"Caribbean Spicy Zinger Burger",
+          "Type":"Non-Veg",
+          "Price":219,
+          "Description":"Relish the Caribbean spicy zinger",
+          "Category":"INTERNATIONAL BURGER FEST"
+      },
+      {
+          "Image":"https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002413.jpg?ver=45.04",
+          "Name":"Caribbean Spicy Zinger Burger & Chicken Meal",
+          "Type":"Non-Veg",
+          "Price":379,
+          "Description":"Caribbean Spicy Zinger Burger with Medium Popcorn and Pepsi PET 475ml at a deal price",
+          "Category":"INTERNATIONAL BURGER FEST"
+      },
+      {
+          "Image":"https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002412.jpg?ver=45.04",
+          "Name":"Caribbean Spicy Zinger Burger & Popcorn Meal",
+          "Type":"Non-Veg",
+          "Price":439,
+          "Description":"Caribbean Spicy Zinger Burger with Medium Popcorn and Pepsi PET 475ml at a deal price",
+          "Category":"INTERNATIONAL BURGER FEST"
+      },
+      {
+          "Image":"https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K696.jpg?ver=45.04",
+          "Name":"Mexican Zinger Pro Burger",
+          "Type":"Non-Veg",
+          "Price":239,
+          "Description":"Premium burger with crunchy chicken, Mexican Habanero sauce, cheese, tomato & onion",
+          "Category":"INTERNATIONAL BURGER FEST"
+      },
+      {
+          "Image":"https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002416.jpg?ver=45.04",
+          "Name":"Mexican Zinger Pro Burger & Chicken Meal",
+          "Type":"Non-Veg",
+          "Price":399,
+          "Description":"New Zinger Pro burger with 1 Hot & Crispy chicken & Pepsi 475ml at a deal price",
+          "Category":"INTERNATIONAL BURGER FEST"
+      },
+      {
+          "Image":"https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002415.jpg?ver=45.04",
+          "Name":"Mexican Zinger Pro Burger & Popcorn Meal",
+          "Type":"Non-Veg",
+          "Price":459,
+          "Description":"New Zinger Pro burger with Medium Popcorn & Pepsi 475ml at a deal price",
+          "Category":"INTERNATIONAL BURGER FEST"
+      },
+      {
+          "Image":"https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K439.jpg?ver=45.04",
+          "Name":"American Classic Zinger",
+          "Type":"Non-Veg",
+          "Price":199,
+          "Description":"Relish the KFC Classic Zinger-lettuce, mayo & Zinger patty filled between",
+          "Category":"INTERNATIONAL BURGER FEST"
+      },
+      {
+          "Image":"https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K788.jpg?ver=45.04",
+          "Name":"American Classic Zinger-with Cheese",
+          "Type":"Non-Veg",
+          "Price":244,
+          "Description":"Signature burger with a crunchy chicken fillet, cheese slice, veggies & a delicious mayo sauce",
+          "Category":"INTERNATIONAL BURGER FEST"
+      },
+      {
+          "Image":"https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K540.jpg?ver=45.04",
+          "Name":"Indian Tandoori Zinger Burger",
+          "Type":"Non-Veg",
+          "Price":208,
+          "Description":"Grab Tandoori Zinger Burger with Onions & Tangy sauce",
+          "Category":"INTERNATIONAL BURGER FEST"
+      },
+      {
+          "Image":"https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K789.jpg?ver=45.04",
+          "Name":"Indian Tandoori Zinger Burger -with Cheeser",
+          "Type":"Non-Veg",
+          "Price":233,
+          "Description":"Chicken zinger with aádelicious tandoori sauce & cheese slice",
+          "Category":"INTERNATIONAL BURGER FEST"
+      },
+      {
+          "Image":"https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K912.jpg?ver=45.04",
+          "Name":"Indian Paneer Zinger Burger",
+          "Type":"Veg",
+          "Price":208,
+          "Description":"Relish the Indian paneer zinger",
+          "Category":"INTERNATIONAL BURGER FEST"
+      },
+      {
+          "Image":"https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002182.jpg?ver=45.04",
+          "Name":"Cricket Crunch Meal",
+          "Type":"Non veg Serves 1-2",
+          "Price":449,
+          "Description":"Crunchy Savings of Rs. 75 & Enjoy 2pc Hot & Crispy Chicken, 4 chicken wings , 2 dips & a chilled Pepsi Black",
+          "Category":"MATCH DAY COMBOS"
+      },
+      {
+          "Image":"https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00000638.jpg?ver=45.04",
+          "Name":"Ultimate Savings Chicken Bucket",
+          "Type":"Non veg Serves 2-3",
+          "Price":699,
+          "Description":"Savings of 35% on signature bucket of 4pc Hot & crispy chicken, 6 Pc Wings, 4 Chicken Peri Peri Boneless",
+          "Category":"MATCH DAY COMBOS"
+      },
+      {
+          "Image":"https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002571.jpg?ver=45.04",
+          "Name":"Playing 11 Chicken Meal",
+          "Type":"Non veg Serves 2-4",
+          "Price":599,
+          "Description":"Enjoy Special 11 meal by saving Rs. 164 on 3 Pc Chicken Leg Piece, 4 Pc Peri peri Strips & 4 Pc Hot Wings",
+          "Category":"MATCH DAY COMBOS"
+      },
+      {
+          "Image":"https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002572.jpg?ver=45.04",
+          "Name":"The Hitter Chicken Combo",
+          "Type":"Non veg Serves 3-4",
+          "Price":666,
+          "Description":"Hitter huge savings of Rs. 132 on 5 Pc Chicken Leg Piece & 5 Pc Hot Wings",
+          "Category":"MATCH DAY COMBOS"
+      },
+      {
+          "Image":"https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002183.jpg?ver=45.04",
+          "Name":"Super Over Meal",
+          "Type":"Non veg Serves 1",
+          "Price":329,
+          "Description":"Favorite combo of Classic Chicken Zinger Burger, Medium French Fries & a chilled Pepsi Black Can 300ml",
+          "Category":"MATCH DAY COMBOS"
+      },
+      {
+          "Image":"https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002439.jpg?ver=45.04",
+          "Name":"Super 6s Chicken Bucket",
+          "Type":"Non veg Serves 2",
+          "Price":666,
+          "Description":"Sixer Savings of Rs. 249 off on Special Bucket of 6 Pc Chicken Leg Piece & 6 Pc Peri Peri Chicken Strips",
+          "Category":"MATCH DAY COMBOS"
+      },
+      {
+          "Image":"https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002435.jpg?ver=45.04",
+          "Name":"Rolls Super Kings",
+          "Type":"Non veg Serves 1-2",
+          "Price":399,
+          "Description":"Super Savings of Rs. 75 on 2 Classic chicken Roll, 4 Pc Hot Wings and a Pepsi PET 475ml",
+          "Category":"MATCH DAY COMBOS"
+      },
+      {
+          "Image":"https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002503.jpg?ver=45.04",
+          "Name":"2 Chicken Longer Burgers Lunch Combo",
+          "Type":"Non veg",
+          "Price":299,
+          "Description":"Save 40% on new 2 Chicken Longer Burgers, 4 Chicken Strips and a Pepsi PET 475ml",
+          "Category":"VALUE LUNCH SPECIALS"
+      },
+      {
+          "Image":"https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002504.jpg?ver=45.04",
+          "Name":"2 Chicken Rolls Lunch Combo",
+          "Type":"Non veg",
+          "Price":299,
+          "Description":"Save 44% on new 2 Single Chicken Rolls, 4 Chicken Strips and a 1 Pepsi PET 475ml",
+          "Category":"VALUE LUNCH SPECIALS"
+      },
+      {
+          "Image":"https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002505.jpg?ver=45.04",
+          "Name":"2 Rice Bowlz Lunch Combo",
+          "Type":"Non veg",
+          "Price":299,
+          "Description":"Save 31% on new 2 Rizo Rice Bowlz, 4 Chicken Strips and a 1 Pepsi PET 475ml",
+          "Category":"VALUE LUNCH SPECIALS"
+      },
+      {
+          "Image":"https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002508.jpg?ver=45.04",
+          "Name":"Chicken Roll & Rice Lunch Combo",
+          "Type":"Non veg",
+          "Price":299,
+          "Description":"Save 46% on new 1 Rizo Rice Bowlz, 1 Single Chicken Roll, 4 Strips and a Pepsi PET 475ml",
+          "Category":"VALUE LUNCH SPECIALS"
+      },
+      {
+          "Image":"https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002507.jpg?ver=45.04",
+          "Name":"Chicken Longer & Rice Lunch Combo",
+          "Type":"Non veg",
+          "Price":299,
+          "Description":"Save 44% on 1 Chicken Longer Burger, 1 Rizo Rice Bowlz, 4 Strips and a Pepsi PET 475ml",
+          "Category":"VALUE LUNCH SPECIALS"
+      },
+      {
+          "Image":"https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002506.jpg?ver=45.04",
+          "Name":"Chicken Longer & Roll Lunch Combo",
+          "Type":"Non veg",
+          "Price":299,
+          "Description":"Save 42% on new 1 chicken longer, 1 chicken roll , 4 strips and a Pepsi PET",
+          "Category":"VALUE LUNCH SPECIALS"
+      },
+      {
+          "Image":"https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002509.jpg?ver=45.04",
+          "Name":"2 Chicken Longer Deluxe Lunch Combo",
+          "Type":"Non veg",
+          "Price":399,
+          "Description":"Save 34% on new 2 Chicken longer, 2 Strips, 2 HC and a Pepsi PET",
+          "Category":"VALUE LUNCH SPECIALS"
+      },
+      {
+          "Image":"https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002510.jpg?ver=45.04",
+          "Name":"2 Chicken Roll Deluxe Lunch Combo",
+          "Type":"Non veg",
+          "Price":399,
+          "Description":"Save 38% on new 2 Single chicken roll, 2 Strips, 2 HC and a Pepsi PET",
+          "Category":"VALUE LUNCH SPECIALS"
+      },
+      {
+          "Image":"https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002511.jpg?ver=45.04",
+          "Name":"2 Rice Bowlz Deluxe Lunch Combo",
+          "Type":"Non veg",
+          "Price":399,
+          "Description":"Save 42% on new 2 Rizo Rice Bowlz, 2 Chicken Strips, 2 HC and 1 Pepsi PET 475ml",
+          "Category":"VALUE LUNCH SPECIALS"
+      },
+      {
+          "Image":"https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002512.jpg?ver=45.04",
+          "Name":"Chicken Longer & Roll Deluxe Lunch Combo",
+          "Type":"Non veg",
+          "Price":399,
+          "Description":"36% off on new 1 chicken longer, 1 chicken roll , 2 strips , 2 HC and a Pepsi PET",
+          "Category":"VALUE LUNCH SPECIALS"
+      },
+      {
+          "Image":"https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002513.jpg?ver=45.04",
+          "Name":"Chicken Longer & Rice Deluxe Lunch Combo",
+          "Type":"Non veg",
+          "Price":399,
+          "Description":"38% off on new 1 chicken longer, 1 Rizo Rice Bowl , 2 strips , 2 HC and a Pepsi PET",
+          "Category":"VALUE LUNCH SPECIALS"
+      },
+      {
+          "Image":"https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00001003.jpg?ver=45.04",
+          "Name":"Zinger Tandoori Box",
+          "Type":"Non veg",
+          "Price":313,
+          "Description":"A deal for Tandoori lovers : Get 1 Tandoori Zinger, 2 Hot Wings, 1 Veg Patty & 1 Pepsi 475ml",
+          "Category":"VALUE LUNCH SPECIALS"
+      },
+      {
+          "Image":"https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002167.jpg?ver=45.04",
+          "Name":"All Chicken Box",
+          "Type":"Non veg",
+          "Price":189,
+          "Description":"A Box with your favorites! Get 1 pc Hot & Crispy, 2 Hot Wings & 1 Chicken Strip at a deal price",
+          "Category":"BOX MEALS"
+      },
+      {
+          "Image":"https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00001004.jpg?ver=45.04",
+          "Name":"Veg Zinger Box",
+          "Type":"Non veg",
+          "Price":313,
+          "Description":"A deal for the Veg Zinger lovers : Get 1 Veg Zinger, 2 Veg Patties & 1 Pepsi 475ml",
+          "Category":"BOX MEALS"
+      },
+      {
+          "Image":"https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00001004.jpg?ver=45.04",
+          "Name":"Veg Zinger Box",
+          "Type":"Non veg",
+          "Price":313,
+          "Description":"A deal for the Veg Zinger lovers : Get 1 Veg Zinger, 2 Veg Patties & 1 Pepsi 475ml",
+          "Category":"BOX MEALS"
+      },
+      {
+          "Image":"https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/md/D-K696.jpg?ver=45.04",
+          "Name":"Mexican Zinger Pro Burger",
+          "Type":"Non veg",
+          "Price":239,
+          "Description":"Premium burger with crunchy chicken, Mexican Habanero sauce, cheese, tomato & onion",
+          "Category":"BURGERS"
+      },
+      {
+          "Image":"https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/md/D-K912.jpg?ver=45.04",
+          "Name":"Indian Paneer Zinger Burger",
+          "Type":"Non veg",
+          "Price":208,
+          "Description":"Relish the Indian paneer zinger",
+          "Category":"BURGERS"
+      },
+      {
+          "Image":"https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/md/D-PR00002412.jpg?ver=45.04",
+          "Name":"Caribbean Spicy Zinger Burger & Popcorn Meal",
+          "Type":"Non veg",
+          "Price":439,
+          "Description":"Caribbean Spicy Zinger Burger with Medium Popcorn and Pepsi PET 475ml at a deal price",
+          "Category":"BURGERS"
+      },
+      {
+          "Image":"https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/md/D-PR00002415.jpg?ver=45.04",
+          "Name":"Mexican Zinger Pro Burger & Popcorn Meal",
+          "Type":"Non veg",
+          "Price":459,
+          "Description":"New Zinger Pro burger with Medium Popcorn & Pepsi 475ml at a deal price",
+          "Category":"BURGERS"
+      },
+      {
+          "Image":"https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/md/D-K815.jpg?ver=45.04",
+          "Name":"Caribbean Spicy Zinger Burger",
+          "Type":"Non veg",
+          "Price":219,
+          "Description":"Relish the Caribbean spicy zinger",
+          "Category":"BURGERS"
+      },
+      {
+          "Image":"https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/md/D-PR00002416.jpg?ver=45.04",
+          "Name":"Mexican Zinger Pro Burger & Chicken Meal",
+          "Type":"Non veg",
+          "Price":399,
+          "Description":"New Zinger Pro burger with 1 Hot & Crispy chicken & Pepsi 475ml at a deal pri",
+          "Category":"BURGERS"
+      },
+      {
+          "Image":"https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/md/D-PR00000974.jpg?ver=45.04",
+          "Name":"Family Feast",
+          "Type":"Non veg",
+          "Price":859,
+          "Description":"Family Deal of 3 chicken zingers, med popcorn, med fries & 1 Pepsi 475ml",
+          "Category":"BURGERS"
+      },
+      {
+          "Image":"https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/md/D-K788.jpg?ver=45.04",
+          "Name":"American Classic Zinger-with Cheese",
+          "Type":"Non veg",
+          "Price":224,
+          "Description":"Signature burger with a crunchy chicken fillet, cheese slice, veggies & a delicious mayo sauce",
+          "Category":"BURGERS"
+      },
+      {
+          "Image":"https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/md/D-PR00002413.jpg?ver=45.04",
+          "Name":"Caribbean Spicy Zinger Burger & Chicken Meal",
+          "Type":"Non veg",
+          "Price":379,
+          "Description":"New Caribbean Spicy Zinger Burger with 1 Pc Hot & Crispy and Pepsi PET 475ml at a deal price",
+          "Category":"BURGERS"
+      },
+      {
+          "Image":"https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/md/D-K789.jpg?ver=45.04",
+          "Name":"Indian Tandoori Zinger Burger -with Cheese",
+          "Type":"Non veg",
+          "Price":233,
+          "Description":"Chicken zinger with aádelicious tandoori sauce & cheese slice",
+          "Category":"BURGERS"
+      },
+      {
+          "Image":"https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/sm/D-PR00002340.jpg?ver=45.04",
+          "Name":"All in One Bucket",
+          "Type":"Non Veg",
+          "Price":548,
+          "Description":"1 Leg, 1 Hot & Crispy, 2 Wings, 2 Strips, 1 Zinger Fillet, 3 Dips [20gm each] & 1 Pepsi 475 ml",
+          "Category":"CHICKEN BUCKETS"
+      },
+      {
+          "Image":"https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/sm/D-PR00000892.jpg?ver=45.04",
+          "Name":"Bucket for Two",
+          "Type":"Non Veg",
+          "Price":599,
+          "Description":"Flat Rs. 115 off on combo of 2pc Hot & Crispy, 2 pc Smoky Red Chicken & Large Popcorn",
+          "Category":"CHICKEN BUCKETS"
+      },
+      {
+          "Image":"https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/sm/D-PR00002169.jpg?ver=45.04",
+          "Name":"Stay Home Bucket",
+          "Type":"Non Veg",
+          "Price":788,
+          "Description":"Save 21% on 4 Hot & Crispy, 4 Wings, 6 Peri Strips & 2 dips (20gm each)",
+          "Category":"CHICKEN BUCKETS"
+      },
+      {
+          "Image":"https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/sm/D-PR00002155.jpg?ver=45.04",
+          "Name":"Peri Peri 10 Leg pc & 4 Dips",
+          "Type":"Non Veg",
+          "Price":924,
+          "Description":"Leg before any wicket! Save 27% on 10 Peri Peri Leg Pieces & 4 Dips (20 gm each)",
+          "Category":"CHICKEN BUCKETS"
+      },
+      {
+          "Image":"https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/sm/D-PR00002156.jpg?ver=45.04",
+          "Name":"Peri Peri 5 Leg Pc Meal",
+          "Type":"Non Veg",
+          "Price":628,
+          "Description":"5 Spicy Peri Peri Leg Pieces, 2 Dips (20gm each), 1 Med Fries & 1 Pepsi 475ml",
+          "Category":"CHICKEN BUCKETS"
+      },
+      {
+          "Image":"https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/sm/D-PR00000854.jpg?ver=45.04",
+          "Name":"Big 12",
+          "Type":"Non Veg",
+          "Price":748,
+          "Description":"6pc Hot & Crispy Chicken,6 Wings & 2 Dips(20gm each)",
+          "Category":"CHICKEN BUCKETS"
+      },
+      {
+          "Image":"https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/sm/D-PR00000638.jpg?ver=45.04",
+          "Name":"Ultimate Savings Bucket",
+          "Type":"Non Veg",
+          "Price":699,
+          "Description":"Savings of 35% on signature bucket of 4pc Hot & crispy chicken, 6 Pc Wings, 4 Chicken Peri Peri Boneless strips, 2",
+          "Category":"CHICKEN BUCKETS"
+      },
+      {
+          "Image":"https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/sm/D-PR00000891.jpg?ver=45.04",
+          "Name":"Big 8",
+          "Type":"Non Veg",
+          "Price":684,
+          "Description":"Save 29% on this variety bucket of 4pc Hot & Crispy chicken & 4pc Smoky Red chicken",
+          "Category":"CHICKEN BUCKETS"
+      },
+      {
+          "Image":"https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/sm/D-K445.jpg?ver=45.04",
+          "Name":"5pc Smoky Red Chicken",
+          "Type":"Non Veg",
+          "Price":528,
+          "Description":"Grab 5 pc Smoky Red Chicken - grilled to perfection",
+          "Category":"CHICKEN BUCKETS"
+      },
+      {
+          "Image":"https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/sm/D-PR00002162.jpg?ver=45.09",
+          "Name":"Mingles Bucket Meal",
+          "Type":"Non Veg",
+          "Price":499,
+          "Description":"Save Rs. 71 on 4 Wings,2 Peri Strips, Reg Popcorn, Med Fries & 1 Pepsi 475ml",
+          "Category":"CHICKEN BUCKETS"
+      },
+      {
+          "Image":"https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/sm/D-K009.jpg?ver=45.09",
+          "Name":"8 pc Hot & Crispy Chicken",
+          "Type":"Non Veg",
+          "Price":768,
+          "Description":"8 pc Hot & Cripsy",
+          "Category":"CHICKEN BUCKETS"
+      },
+      {
+          "Image":"https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/sm/D-PR00002487.jpg?ver=45.09",
+          "Name":"Duo Popcorn Chicken Rice Bowlz",
+          "Type":"Non Veg",
+          "Price":428,
+          "Description":"Save Rs. 30 on beloved Chicken Rice Bowlz served with signature Popcorn",
+          "Category":"RICE BOWLZ"
+      },
+      {
+          "Image":"https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/sm/D-K872.jpg?ver=45.09",
+          "Name":"Classic Chicken Rice Bowlz",
+          "Type":"Non Veg",
+          "Price":229,
+          "Description":"Rice Bowlz Attack!- Grab this aromatic Rice Bowlz rice with 1 piece Hot & Cripsy & gravy",
+          "Category":"RICE BOWLZ"
+      },
+      {
+          "Image":"https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/sm/D-K873.jpg?ver=45.09",
+          "Name":"Smoky Red Chicken Rice Bowlz",
+          "Type":"Non Veg",
+          "Price":229,
+          "Description":"Rice Bowlz Attack!- Grab this aromatic Rice Bowlz with smoky grilled chicken & gravy!",
+          "Category":"RICE BOWLZ"
+      },
+      {
+          "Image":"https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/sm/D-K870.jpg?ver=45.09",
+          "Name":"Popcorn Chicken Rice Bowlz",
+          "Type":"Non Veg",
+          "Price":229,
+          "Description":"Rice Bowlz Attack!- Grab this aromatic Rice Bowlz with chicken popcorn & gravy!",
+          "Category":"RICE BOWLZ"
+      },
+      {
+          "Image":"https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/sm/D-K869.jpg?ver=45.09",
+          "Name":"Veg Rice Bowlz",
+          "Type":"Non Veg",
+          "Price":199,
+          "Description":"Rice Bowlz Attack!- Grab this aromatic Rice Bowlz with gravy now!",
+          "Category":"RICE BOWLZ"
+      },
+      {
+          "Image":"https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/sm/D-PR00002488.jpg?ver=45.09",
+          "Name":"Popcorn Chicken Rice Bowlz & Wings Meal",
+          "Type":"Non Veg",
+          "Price":699,
+          "Description":"Deal Savings of Rs. 118 on 2 units of Chicken Popcorn Rice Bowlz and 8 Pc Hot Wings",
+          "Category":"RICE BOWLZ"
+      },
+      {
+          "Image":"https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/sm/D-K867.jpg?ver=45.09",
+          "Name":"Plain Rice Bowlz",
+          "Type":"Non Veg",
+          "Price":139,
+          "Description":"Aromatic Plain Rice- perfect go along to make a wholesome meal!",
+          "Category":"RICE BOWLZ"
+      },
+      {
+          "Image":"https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/sm/D-PR00002489.jpg?ver=45.09",
+          "Name":"Popcorn Rice Box",
+          "Type":"Non Veg",
+          "Price":328,
+          "Description":"PC Rice Box- 1 Popcorn Chicken Rice Bowlz + , 2 HW + 1 Pepsi PET 475 ml",
+          "Category":"RICE BOWLZ"
+      }
+
+  ]
+}
