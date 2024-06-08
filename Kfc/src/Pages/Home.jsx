@@ -7,11 +7,11 @@ import Slider from '../Components/Slider'
 function Home() {
   return (
     <>
-    <Banner/>
+    <Banner/>  
     <BrowseCategory/>
     <Slider/>
     </>
   )
 }
-
+// dfdfhdfdhgfkdhfjk
 export default Home
