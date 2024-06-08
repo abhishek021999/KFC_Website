@@ -10,7 +10,7 @@ const Menu = () => {
 
   async function fetchProducts() {
     try {
-      let res = await fetch("http://localhost:3000/Data");
+      let res = await fetch("https://salt-precious-vacuum.glitch.me/Data");
       if (!res.ok) {
         throw new Error(`HTTP error! status: ${res.status}`);
       }
