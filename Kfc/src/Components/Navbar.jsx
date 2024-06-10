@@ -1,16 +1,23 @@
-import React, { useState } from 'react'
+import React, { useContext, useState } from 'react'
 import { CiLocationOn } from "react-icons/ci"
 import kfc from '../assets/kfc.png'
 import { Link } from 'react-router-dom'
 import { FaBars, FaTimes } from 'react-icons/fa';
 import cart from '../assets/cart.png'
 import { LuUserCircle } from "react-icons/lu";
+import { AuthContext } from './AuthContextProvider';
+import { Button } from '@chakra-ui/react';
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
-  
+  const {Em,isAuth,setisAuth,setEm}=useContext(AuthContext)
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
+  function handleLogout(){
+    setEm(null)
+    setisAuth(false)
+    navigate("/login")
+  }
   return (
     <>
       <div className='w-full  flex  justify-center gap-2 mt-3 items-center  m-auto'>
@@ -38,7 +45,9 @@ function Navbar() {
        
         <div className='md:flex items-center gap-3 md:pr-28'>
         <LuUserCircle className='hidden md:block' size={20} />
-        <Link to={"/signup"} className='hidden md:block'>SignIn</Link>
+        {isAuth?<span>{Em}</span>:<Link to={"/signup"} className='hidden md:block'>SignIn</Link>}
+        <br />
+        {isAuth&&<Button onClick={handleLogout}>Logout</Button>}
         <img src={cart} alt="" className='h-14' />
         </div>
       </div>

@@ -1,8 +1,9 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import kfc from '../assets/kfc.png'
+import { AuthContext } from '../Components/AuthContextProvider';
 export default function LoginPage() {
- 
+  const {setEm,setisAuth}=useContext(AuthContext)
   const navigate= useNavigate()
  
    const [FormState , setFormstate] = useState({
@@ -34,6 +35,8 @@ export default function LoginPage() {
 
     // Basic form validation
     if (storeEmail===FormState.Email && storePassword===FormState.Password ) {
+      setisAuth(true)
+      setEm(storeEmail)
       alert("Login Success")
       navigate("/");
       
