@@ -48,7 +48,7 @@ function Navbar() {
         {isAuth?<span>{Em}</span>:<Link to={"/signup"} className='hidden md:block'>SignIn</Link>}
         <br />
         {isAuth&&<Button onClick={handleLogout}>Logout</Button>}
-        <img src={cart} alt="" className='h-14' />
+        <Link to={"/cart/:id"}><img src={cart} alt="" className='h-14' /></Link>
         </div>
       </div>
 

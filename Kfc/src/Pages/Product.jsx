@@ -1,16 +1,18 @@
 import { Button } from '@chakra-ui/react';
 import React, { useState, useEffect } from 'react';
 import { BiSolidCartAdd } from "react-icons/bi";
+import { useNavigate } from 'react-router-dom';
 
-const Menu = () => {
+const Product = () => {
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [list, setList] = useState("INTERNATIONAL BURGER FEST");
-
+  const navigate=useNavigate()
+  console.log(products)
   async function fetchProducts() {
     try {
-      let res = await fetch("https://salt-precious-vacuum.glitch.me/Data");
+      let res = await fetch("https://fascinated-half-parent.glitch.me/Data");
       if (!res.ok) {
         throw new Error(`HTTP error! status: ${res.status}`);
       }
@@ -33,6 +35,9 @@ const Menu = () => {
   }
 
   const filteredProducts = products.filter((product) => product.Category === list);
+  function handlecart(id,e){
+      navigate(`/cart/${id}`)
+  }
 
   return (
     <div className="container mx-auto p-4">
@@ -63,14 +68,14 @@ const Menu = () => {
             <>
               <h2 className="text-3xl font-bold mb-4">{list}</h2>
               <div className=" bg-[#f8f7f5] grid grid-cols-1 md:grid-cols-2 gap-4">
-                {filteredProducts.map((product, id) => (
-                  <div key={id} className="border p-4 rounded">
+                {filteredProducts.map((product) => (
+                  <div key={product.id} className="border p-4 rounded">
                     <img src={product.Image} alt={product.Name} className="w-full h-50 object-cover rounded-md"/>
                     <h3 className="text-lg font-bold mt-2">{product.Name}</h3>
                     <p className='text-red'>{product.Type}</p>
                     <p className="text-red-500 font-bold">₹{product.Price}</p>
                     <p>{product.Description}</p>
-                    <Button textAlign='end' w='40%' borderRadius='20px' mt='4' colorScheme='red'>Add to Cart <BiSolidCartAdd size={26} /></Button>
+                    <Button onClick={(e)=>handlecart(product.id,e)} textAlign='end' w='40%' borderRadius='20px' mt='4' colorScheme='red'>Add to Cart <BiSolidCartAdd size={26} /></Button>
                   </div>
                 ))}
               </div>
@@ -82,4 +87,4 @@ const Menu = () => {
   );
 };
 
-export default Menu;
+export default Product;
