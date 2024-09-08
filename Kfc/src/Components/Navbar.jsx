@@ -9,10 +9,11 @@ import { AuthContext } from './AuthContextProvider';
 import { Button } from '@chakra-ui/react';
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
-  const {Em,isAuth,setisAuth,setEm}=useContext(AuthContext)
+  const {Em,isAuth,setisAuth,setEm,cartItemlength}=useContext(AuthContext)
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
+  
   function handleLogout(){
     setEm(null)
     setisAuth(false)
@@ -48,7 +49,7 @@ function Navbar() {
         {isAuth?<span>{Em}</span>:<Link to={"/signup"} className='hidden md:block'>SignIn</Link>}
         <br />
         {isAuth&&<Button onClick={handleLogout}>Logout</Button>}
-        <Link to={"/cart/:id"}><img src={cart} alt="" className='h-14' /></Link>
+        <Link to={"/Cart"}><img src={cart} alt="" className='h-14' /></Link>
         </div>
       </div>
 

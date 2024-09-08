@@ -1,97 +1,159 @@
-// BurgerCart.js
 import React, { useState, useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+import axios from "axios";
 
 function Cart() {
-  const [quantity, setQuantity] = useState(1);
-  const { id } = useParams();
-  const [product, setProduct] = useState(null);
-    console.log(product)
-  async function fetchProduct() {
+  const [cartItems, setCartItems] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
+  const [donation, setDonation] = useState(5.0);
+  const navigate = useNavigate();
+
+  // Fetch the cart items from the server
+  async function fetchCart() {
     try {
-      let res = await fetch(`https://fascinated-half-parent.glitch.me/Data/${id}`);
+      let res = await fetch("https://carbonated-florentine-collard.glitch.me/Cart");
       if (!res.ok) {
         throw new Error(`HTTP error! status: ${res.status}`);
       }
       let data = await res.json();
-      setProduct(data);
+      setCartItems(
+        data.map(item => ({
+          ...item,
+          quantity: item.quantity || 1, // Ensure quantity is initialized to 1 if missing
+        }))
+      );
+      setIsLoading(false);
     } catch (error) {
-      console.error("There was an error fetching the product:", error);
+      console.error("There was an error fetching the cart:", error);
     }
   }
 
   useEffect(() => {
-    fetchProduct();
-  }, [id]);
+    fetchCart();
+  }, []);
 
-  const incrementQuantity = () => {
-    setQuantity(quantity + 1);
+  // Increment item quantity
+  const incrementQuantity = (index) => {
+    const updatedCartItems = [...cartItems];
+    updatedCartItems[index].quantity += 1;
+    setCartItems(updatedCartItems);
   };
 
-  const decrementQuantity = () => {
-    if (quantity > 1) {
-      setQuantity(quantity - 1);
+  // Decrement item quantity
+  const decrementQuantity = (index) => {
+    const updatedCartItems = [...cartItems];
+    if (updatedCartItems[index].quantity > 1) {
+      updatedCartItems[index].quantity -= 1;
+      setCartItems(updatedCartItems);
     }
   };
 
-  if (!product) {
+  // Handle item removal
+  const handleRemove = async (id) => {
+    try {
+      await axios.delete(`https://carbonated-florentine-collard.glitch.me/Cart/${id}`);
+      const updatedCartItems = cartItems.filter((item) => item.id !== id);
+      setCartItems(updatedCartItems);
+    } catch (error) {
+      console.error("Error removing item from cart:", error);
+    }
+  };
+
+  // Toggle donation on checkbox change
+  const toggleDonation = () => {
+    setDonation(donation === 0 ? 5.0 : 0);
+  };
+
+  // GST calculation function
+  const GST = (price) => (price * 0.05).toFixed(2);
+
+  // Calculate total amount
+  const totalAmount = cartItems.reduce((total, item) => {
+    const itemPrice = parseFloat(item.Price) || 0; // Ensure price is a valid number
+    const subtotal = itemPrice * item.quantity;
+    return total + subtotal + parseFloat(GST(itemPrice)) + donation;
+  }, 0);
+
+  // Display loading or empty cart message
+  if (isLoading) {
     return <div>Loading...</div>;
   }
 
-  const { Name, Price,Type,Description,Image,Category } = product;
-  const GST = (Price * 0.05).toFixed(2); // Assuming 5% GST
-  const addHopeDonation = 5.0;
-  const subtotal = Price * quantity;
-  const total = subtotal + parseFloat(GST) + addHopeDonation;
+  if (cartItems.length === 0) {
+    return <div>Your cart is empty.</div>;
+  }
 
   return (
     <div className="w-full max-w-4xl mx-auto bg-white p-6 rounded-lg shadow-lg flex flex-col md:flex-row">
       <div className="flex-1 mb-6 md:mb-0">
-        <h2 className="text-2xl font-bold mb-4">{Name}</h2>
-        <img className="w-[30%]" src={Image} />
-        <div className="flex items-center mb-4 mt-4">
-          <button
-            onClick={decrementQuantity}
-            className="px-3 py-1 bg-gray-200 rounded-lg"
-          >
-            -
-          </button>
-          <span className="mx-4">{quantity}</span>
-          <button
-            onClick={incrementQuantity}
-            className="px-3 py-1 bg-gray-200 rounded-lg"
-          >
-            +
-          </button>
-        </div>
-        <div className="text-xl font-semibold">₹{Price.toFixed(2)}</div>
-        <button className="text-red-500 mt-4">Remove</button>
+        <h2 className="text-2xl font-bold mb-4">Your Cart</h2>
+        {cartItems.map((item, index) => (
+          <div key={item.id} className="mb-6">
+            <h2 className="text-2xl font-bold mb-4">{item.Name}</h2>
+            <img className="w-[30%]" src={item.Image} alt={item.Name} />
+            <div className="flex items-center mb-4 mt-4">
+              <button
+                onClick={() => decrementQuantity(index)}
+                disabled={item.quantity === 1}
+                className={`px-3 py-1 bg-gray-200 rounded-lg ${
+                  item.quantity === 1 ? "opacity-50" : ""
+                }`}
+              >
+                -
+              </button>
+              <span className="mx-4">{item.quantity}</span>
+              <button
+                onClick={() => incrementQuantity(index)}
+                className="px-3 py-1 bg-gray-200 rounded-lg"
+              >
+                +
+              </button>
+            </div>
+            <div className="text-xl font-semibold">
+              ₹{parseFloat(item.Price).toFixed(2)}
+            </div>
+            <button
+              onClick={() => handleRemove(item.id)}
+              className="text-red-500 mt-4"
+            >
+              Remove
+            </button>
+          </div>
+        ))}
       </div>
       <div className="md:w-1/3 w-full p-4 bg-gray-50 rounded-lg shadow-inner">
-        <h2 className="text-xl font-bold mb-4">1 ITEM</h2>
-        <button className="text-red-500 mb-4">Apply</button>
-        <div className="mb-2">
-          <div className="flex justify-between">
-            <span>Subtotal</span>
-            <span>₹{subtotal.toFixed(2)}</span>
+        <h2 className="text-xl font-bold mb-4">{cartItems.length} ITEM(S)</h2>
+        {cartItems.map((item) => (
+          <div key={item.id} className="mb-2">
+            <div className="flex justify-between">
+              <span>{item.Name}</span>
+              <span>
+                ₹{(parseFloat(item.Price) * item.quantity).toFixed(2)}
+              </span>
+            </div>
+            <div className="flex justify-between">
+              <span>GST</span>
+              <span>₹{GST(parseFloat(item.Price))}</span>
+            </div>
           </div>
-          <div className="flex justify-between">
-            <span>GST</span>
-            <span>₹{GST}</span>
-          </div>
-          <div className="flex justify-between">
-            <span>Add Hope</span>
-            <span>₹{addHopeDonation.toFixed(2)}</span>
-          </div>
-        </div>
+        ))}
         <div className="flex items-center mb-4">
-          <input type="checkbox" id="addHope" className="mr-2" checked readOnly />
+          <input
+            type="checkbox"
+            id="addHope"
+            className="mr-2"
+            checked={donation !== 0}
+            onChange={toggleDonation}
+          />
           <label htmlFor="addHope">
-            Donate ₹{addHopeDonation.toFixed(2)} to Add Hope.
+            Donate ₹{donation.toFixed(2)} to Add Hope.
           </label>
         </div>
-        <button className="w-full bg-red-500 text-white py-2 rounded-lg font-semibold">
-          Checkout ₹{total.toFixed(2)}
+        <button
+          className="w-full bg-red-500 text-white py-2 rounded-lg font-semibold"
+          onClick={() => alert(`Checkout Total: ₹${totalAmount.toFixed(2)}`)}
+        >
+          Checkout ₹{totalAmount.toFixed(2)}
         </button>
       </div>
     </div>
